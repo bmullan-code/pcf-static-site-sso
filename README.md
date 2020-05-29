@@ -1,4 +1,6 @@
 
+## Using TAS (PCF) SSO plan and TAS Spring Cloud Gateway to protect a static website.
+
 # create a website
 
 npx @docusaurus/init@next init my-website classic
