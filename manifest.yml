@@ -1,0 +1,13 @@
+applications:
+- name: site1
+  buildpacks:
+  - staticfile_buildpack
+  path : ./build
+  disk_quota: 1G
+  instances: 1
+  memory: 256M
+  stack: cflinuxfs3
+  env:
+    RELEASE: PRODUCTION
+    TEST: STAGING
+    logging_level: TRACE
