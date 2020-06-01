@@ -6,6 +6,8 @@
 npx @docusaurus/init@next init my-website classic
 
 # set the baseurl in docusaurus.config.ja
+Note the use of a  baseurl is required for use with the sprint cloud gateway service.
+
 ```
 baseUrl: '/site1/'
 ```
