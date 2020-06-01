@@ -16,6 +16,8 @@ npm run build
 
 # push to pcf (see manifest.yml file)
 
+Note the use of an 'internal' route. This means the application will not be accessible other than through the gateway.
+
 ```
 cf push
 ```
@@ -41,7 +43,7 @@ cf create-service p.gateway standard site1-gateway -c '{ "sso": { "plan": "angul
 
 cf bs site1 site1-gateway -c ./static-route.json
 
-cf restate site1
+cf restage site1
 ```
 
 

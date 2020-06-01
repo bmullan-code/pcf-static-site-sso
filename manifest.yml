@@ -4,6 +4,8 @@ applications:
   - staticfile_buildpack
   path : ./build
   disk_quota: 1G
+  routes:
+  - route: site1.apps.internal
   instances: 1
   memory: 256M
   stack: cflinuxfs3
