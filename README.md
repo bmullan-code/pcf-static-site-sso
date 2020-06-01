@@ -3,12 +3,11 @@
 
 ![diagram](https://github.com/bmullan-pivotal/pcf-static-site-sso/blob/master/diagram.png?raw=true)
 
-
 # create a website
 
 npx @docusaurus/init@next init my-website classic
 
-# set the baseurl in docusaurus.config.ja
+# set the baseurl in docusaurus.config.js
 Note the use of a  baseurl is required for use with the sprint cloud gateway service.
 
 ```
